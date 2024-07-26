@@ -1,0 +1,203 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AShikasri's Portfolio</title>
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/originals/5a/4d/70/5a4d70ceb38747d2286188fb2b62419e.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin:  15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #333;
+            color: rgb(12, 9, 9);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        table, tr, th, td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 0.5cm;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <head style="margin-bottom: 10%;">
+            <h1 style="text-align:center; padding-left: 10%;color: aliceblue;">Ashikasri</h1>
+            <h3 style="text-align:center; padding-left: 10%;color: aliceblue;">Engineering student</h3>
+        </head>
+        
+        
+        <nav style="text-align: right;" >
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+             
+                
+            </ul>
+        </nav>
+    </header>
+     
+    <section style="display: flex;flex-direction:row; justify-content: space-between; padding: 5px; ">
+
+        <div id="about">
+        <h2 style="padding-bottom: 100px;" >About Me</h2>
+        <p style="font-size: large; line-height: 150%;">I am currently a Third-year Electronics and Communication Engineering student at SKCET
+            seeking internship opportunities. Proactive and hardworking, I maintain up-to-date
+            knowledge in Electronics and Communication technology. I am a fast learner and open to
+            relocating for internship opportunities.
+        </p>
+    </div>
+        <hr>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <body>
+        <centre><table>
+                <tr>
+                    <th>School</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SSVM</td>
+                    <td>2020</td>
+                    <td>96%</td>
+                </tr>
+                <tr>
+                    <td>SSVM</td>
+                    <td>2022</td>
+                    <td>95%</td>
+                </tr>
+                <tr>
+                    <td>SKCET</td>
+                    <td>2022-2026</td>
+                    <td>75%</td>
+                </tr>
+        </table></centre>
+        </body>
+        <hr>
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Embedded Systems</li>
+            <li>Iot</li>
+            <li>Circuit Design</li>
+            
+        </ul>
+        <hr>
+        <h2>Software Skills</h2>
+        <ul>
+            <li>C++/C</li>
+            <li>Java</li>
+            <li>Html</li>
+            <li>Java Script</li>
+            <li>Type Script</li>
+            <li>Sql</li>
+            <li>DSA</li>
+        </ul>
+        <hr>
+        <h2>Personals Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Communication Skill</li>
+            <li>Creative and Logical Thinking</li>
+            
+        </ul>
+        <hr>
+    </section>
+    <section id="learning">
+        <h2>Learning</h2>
+        <p>Completed in-plant training in embedded systems at Zero Value Infotech.</p>
+        <p></p>
+        <hr>
+    </section>
+    
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>Proteus</li>
+            <li>BLYNK IoT</li>
+            <li>Pycharm</li>
+            <li>VScode</li>
+            <li>GIT</li>
+            <li>GitHub</li>
+            <li>Adobe applications</li> 
+        </ul>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                Developing an AI Powered Energy Management System for an
+                Industries</li><br>
+            <li>Estimation of inflow to a reservoir from the rainfall considering soil moisture in its
+                catchment and releases from upstream reservoirs and automatically opening of reservior
+                gates for moderately releasing the water to avoid the flooding in a basin.</li><br>
+            <li>Our objective is to bridge the digital divide by providing access to technology, connectivity,
+                and digital literacy in remote regions, fostering socio-economic growth and inclusion.</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+        </ul>
+        <hr>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <h4>Ashikasri </h4>
+        <p>Email: ashikasri.ck@gmail.com</p>
+        <p>Phone: +91 6374363657</p>
+        <hr>
+    </section>
+</body>
+</html>
